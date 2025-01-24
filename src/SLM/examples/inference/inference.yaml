@@ -1,0 +1,10 @@
+model_name_or_path: xxx
+stage: sft
+do_predict: true
+dataset: texas_infer
+template: default
+output_dir: xxx
+per_device_eval_batch_size: 16
+max_samples: 1000000
+predict_with_generate: true
+fp16: true
