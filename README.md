@@ -1,4 +1,6 @@
-# Exploring the Potential of Large Language Models for Heterophilic Graphs
+# LLM4HeG
+
+The code and datasets used for our paper "Exploring the Potential of Large Language Models for Heterophilic Graphs" which is accepted by NAACL 2025.
 
 ## Data
 
@@ -51,5 +53,14 @@ To run experiments, execute the `run_train.sh` script located in the `src/GNN` d
 
 To compute averaged statistics, use the `src/parse_results.py` script with the `--result_path` argument, providing the path to your experiment results.
 
+## Citation
 
+```bash
+@inproceedings{wu2025exploring,
+title={Exploring the Potential of Large Language Models for Heterophilic Graphs},
+author={Yuxia Wu and Shujie Li and Yuan Fang and Chuan Shi},
+booktitle={The 2025 Annual Conference of the Nations of the Americas Chapter of the ACL},
+year={2025}
+}
+```
 
